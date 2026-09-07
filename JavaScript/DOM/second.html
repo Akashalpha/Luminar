@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Day2</title>
+  </head>
+  <body>
+    <h1 class="head1">Dom Day 2</h1>
+    <button onclick="changeContent()">Change</button><br /><br /><br />
+    <button onclick="addNewData()">Add New Data</button><br /><br />
+    <table border="3">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody id="result">
+        <tr>
+          <td>Afsal</td>
+          <td>22</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+  </body>
+  <script>
+    const changeContent = () => {
+      let element = document.getElementsByClassName("head1")[0];
+      console.log(element);
+      element.innerText = "Document Object Model Day 2";
+      element.style.textAlign = "center";
+      element.style.color = "blue";
+    };
+    const addNewData = () => {
+      let element = document.getElementById("result");
+      console.log(element);
+      element.innerHTML = `<tr>
+                <td>Nithin</td>
+                <td>22</td>
+            </tr>`;
+    };
+  </script>
+</html>

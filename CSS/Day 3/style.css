@@ -1,0 +1,12 @@
+* {
+  font-style: italic;
+}
+h1 {
+  text-align: center;
+}
+.headClass {
+  color: red;
+}
+#head {
+  text-align: end;
+}

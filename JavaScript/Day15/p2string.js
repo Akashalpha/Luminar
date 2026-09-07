@@ -1,0 +1,17 @@
+let str = 'malayalam'
+console.log(str.length)
+console.log(str.length-1)
+console.log(str.toUpperCase())
+console.log(str.toLowerCase())
+console.log(str.split('a'))
+console.log(str.split(''))
+console.log(str.split(' '))
+console.log(str.split('y'))
+console.log(str.substring(0,3))
+console.log(str.slice(1,6))
+console.log(str.slice(0,-2))  //in slice reverse direction is possible
+console.log(str.charAt('y'))
+console.log(str.startsWith('a'))
+console.log(str.endsWith('m'))
+console.log(str.indexOf('l'))
+console.log(str.includes('l'))

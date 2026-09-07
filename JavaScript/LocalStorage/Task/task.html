@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/512/10476/10476452.png"
+      type="image/x-icon"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-slate-950">
+    <div class="flex items-center flex-col">
+      <h1 class="mt-6">
+        <span
+          class="font-bold text-heading text-6xl text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400"
+          >BMI Calculator</span
+        >
+      </h1>
+
+      <div>
+        <form class="bg-gray-100 rounded max-w-sm mx-auto">
+          <div class="mt-15">
+            <input
+              type="number"
+              id="height"
+              aria-describedby="helper-text-explanation"
+              class="block rounded w-full px-4 py-5 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand shadow-xs placeholder:text-body"
+              placeholder="Height(in cm)"
+              required
+            />
+          </div>
+        </form>
+        <form class="bg-gray-100 rounded max-w-sm mx-auto">
+          <div class="mt-10">
+            <input
+              type="number"
+              id="weight"
+              aria-describedby="helper-text-explanation"
+              class="block rounded w-full px-4 py-5 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand shadow-xs placeholder:text-body"
+              placeholder="Weight(in Kg)"
+              required
+            />
+          </div>
+        </form>
+      </div>
+      <div class="mt-10">
+        <button
+          onclick="inputData()"
+          type="button"
+          class="text-white py-4 rounded bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-base text-sm px-4 py-2.5 text-center leading-5"
+        >
+          Calculate BMI
+        </button>
+      </div>
+    </div>
+    <h1 id="result" class="text-center text-white p-5 text-3xl"></h1>
+  </body>
+  <script src="./task.js"></script>
+</html>

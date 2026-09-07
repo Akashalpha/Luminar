@@ -1,0 +1,116 @@
+// JS -
+
+    1. scripting lang / prog lang
+    2. dynam typ
+    3. bren eich -1995
+    4. mocha - livespript - js
+    5. ECMASCRIPT 2026
+    6. init -> browser / fe -> engines
+            -> be -> nodeJS -> runtime env used to run js outside the browser
+    7. variable - named container used to store values -> var let const
+    8. scope -> block , functional , global
+
+
+
+
+
+length -> to find number of elements in an array
+push -> add a new element to last index
+pop-> to remove element in last index
+unshift-> to add an element to first index
+map -> do operation and return in a new array
+filter-> do comparision and return the element in a new array
+some -> condition satifyig elements only
+find -> condition staisfying first element
+every -> to check if the all elemtnts satisfy condition
+reduce -> to reduce to a single value (sum,pro)
+toSorted -> sort and display in a new array
+sort -> to sort an existig array
+includes -> Checks whether an element exists
+// Join -> Converts an array into a string using a separator.
+// indexOf -> Finds the index/position of an element.
+// slice -> Extracts a portion of an array without changing the original array. Reverse direction is also possible
+
+
+
+rest -> the rest operaror(...) in JS collects multiple elements or properties and condenses them into a single array or object
+
+
+spread -> The JS Spread Operator(...) unpacks or expands elements of an iterable (like an array or string) or properties of an object into individual pieces
+
+dot notation - bracket not
+
+
+
+OOP - OBJECT ORIENTED PROGAMMING ( programming paradigm that emphasizes the use of "objects" to oraganize and structure code )
+
+1. Class - blueprint of the object , tells what are the properties(data) and methods(operations) . It has properties and methods
+
+2. Object - real world entity of the class
+
+
+
+Day 21
+
+
+Abstraction is the process of simplifying complex systems by breaking them into smaller manageable part by hiding all the unnecessary detail from the outer world.
+
+Encapsulation means wrapping up of data and components into a single unit or it can be said as the bundiling of data and methods together within a class
+
+Inheritance allows a class(called subclass or child class) to inherit properties and methods from another class(called superclass or parent class)
+
+Polymorphism allows objects of different classes to be treated as a object of a common superclass or viceversa.
+
+
+
+Day 22
+
+Types of Errors
+
+1.Syntax Error - wrong syntax
+2.Reference Error - variable or functions doesn't exist
+3.Type Error - wrong type or invalid operation
+4.Range Error - value outside desired range
+5.Logical Error - occur by the user in differ of code logic used such as used addition instead of subtraction
+
+
+
+The try...catch...finally statement in JavaScript handles runtime errors, preventing applications from crashing.
+
+try block: Tests a block of code for errors. 
+catch block: Executes if an error occurs within the try block. 
+finally block: Always executes after try and catch, regardless of the outcome.
+
+
+
+
+
+
+The Document Object Model (DOM) connects web pages to scripts or programming languages by representing the structure of a document.
+The DOM represents a document with a logical tree. Each branch of the tree ends in a node, and each node contains objects. DOM methods allow programmatic access to the tree. With them, you can change the document's structure, style, or content.
+
+
+
+
+Events in JS are actions or occurences that happen in the browser-such as a user clicking a button, a page finsihing its loading process, or a user pressing a key. The browser fires a signal when these events occur, allowing you to execute specific JS code in response.
+
+    1.mouse events
+    2.key events
+    3.touch events
+
+
+ 
+ ->  DOM Methods
+
+ The JS Document Object Model (DOM) methods are built-in functions that allow you to select,create,modify,and delete HTML elements automatically
+
+ 1.document.getElementsByTagName
+ 2.document.getElementsByClassName
+ 3.document.getElementById
+ 4.document.querySelector(selector) -> to select only first occurence
+ 5.doc.querySelectorAll(selector) -> to select all occurences
+
+
+
+
+

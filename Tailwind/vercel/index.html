@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vercel</title>
+    <link
+      rel="shortcut icon"
+      href="https://favicon.im/vercel.app?larger=true"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-black">
+    <nav class="flex text-white fixed w-full z-20 top-0 start-0 border-default">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        style="margin-left: 15px"
+      >
+        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img
+            src="https://favicon.im/vercel.app?larger=true"
+            class="w-11 h-11"
+            alt="Flowbite Logo"
+          />
+          <span
+            class="self-center text-xl text-heading font-semibold whitespace-nowrap"
+          ></span>
+        </a>
+        <button
+          data-collapse-toggle="navbar-dropdown"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary"
+          aria-controls="navbar-dropdown"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-6 h-6"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="2"
+              d="M5 7h14M5 12h14M5 17h14"
+            />
+          </svg>
+        </button>
+        <div
+          class="hidden w-full md:block md:w-auto"
+          id="navbar-dropdown"
+          style="margin-right: 600px"
+        >
+          <ul
+            class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-neutral-primary"
+          >
+            <li>
+              <button
+                id="dropdownNvbarButton"
+                data-dropdown-toggle="dropdownNavbar"
+                class="flex items-center justify-between w-full py-2 px-3 rounded font-medium text-heading md:w-auto hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0"
+              >
+                Products
+                <svg
+                  class="w-4 h-4 ms-1.5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m19 9-7 7-7-7"
+                  />
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button
+                id="dropdownNvbarButton"
+                data-dropdown-toggle="dropdownNavbar"
+                class="flex items-center justify-between w-full py-2 px-3 rounded font-medium text-heading md:w-auto hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0"
+              >
+                Resources
+                <svg
+                  class="w-4 h-4 ms-1.5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m19 9-7 7-7-7"
+                  />
+                </svg>
+              </button>
+              <!-- Dropdown menu -->
+              <div
+                id="dropdownNavbar"
+                class="z-10 hidden bg-neutral-primary-medium border border-default-medium rounded-base shadow-lg w-44"
+              >
+                <ul
+                  class="p-2 text-sm text-body font-medium"
+                  aria-labelledby="dropdownNvbarButton"
+                >
+                  <li>
+                    <a
+                      href="#"
+                      class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded"
+                      >Dashboard</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded"
+                      >Settings</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded"
+                      >Earnings</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded"
+                      >Sign out</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
+                >Enterprise</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
+                >Pricing</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div style="margin-right: 40px">
+        <button
+          style="
+            margin-top: 10px;
+            margin-right: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 0 0.3px var(--border-default-medium, #d4d4d4);
+            border: none;
+          "
+          type="button"
+          class="px-1 py-1 bg-black text-body text-white bg-neutral-secondary-medium box-border hover:bg-neutral-tertiary-medium hover:text-heading focus:ring-4 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 rounded-full text-sm px-4 py-2.5 focus:outline-none"
+        >
+          Get a Demo
+        </button>
+        <button
+          style="
+            margin-top: 10px;
+            margin-right: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 0 0.3px var(--border-default-medium, #d4d4d4);
+            border: none;
+          "
+          type="button"
+          class="px-1 py-1 bg-black text-body text-white bg-neutral-secondary-medium box-border hover:bg-neutral-tertiary-medium hover:text-heading focus:ring-4 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 rounded-full text-sm px-4 py-2.5 focus:outline-none"
+        >
+          Log In
+        </button>
+        <button
+          style="margin-top: 10px; border-radius: 8px; padding-top: 5px"
+          type="button"
+          class="bg-white text-body text-black bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading focus:ring-4 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 rounded-full text-sm px-4 py-2.5 focus:outline-none"
+        >
+          Sign Up
+        </button>
+      </div>
+    </nav>
+
+    <div class="grid grid-cols-3">
+      <div>
+        <h1 class="pt-75 text-white text-6xl" style="margin-left: 40px">
+          Agentic <br />
+          Infrastructure
+        </h1>
+        <br />
+        <button
+          style="margin-left: 40px; margin-top: 10px"
+          type="button"
+          class="bg-white text-body text-black bg-neutral-secondary-medium box-border border border-default-medium hover:bg-neutral-tertiary-medium hover:text-heading focus:ring-4 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 rounded-full text-md px-4 py-2.5 focus:outline-none"
+        >
+          Deploy now
+        </button>
+        <button
+          style="
+            margin-top: 10px;
+            margin-left: 10px;
+            border-radius: 20px;
+            box-shadow: 0 0 0 0.3px var(--border-default-medium, #d4d4d4);
+            border: none;
+          "
+          type="button"
+          class="px-6 py-2 bg-black text-body text-white bg-neutral-secondary-medium box-border hover:bg-neutral-tertiary-medium hover:text-heading focus:ring-4 focus:ring-neutral-tertiary shadow-xs font-medium leading-5 rounded-full text-md px-4 py-2.5 focus:outline-none"
+        >
+          Talk to Sales
+        </button>
+      </div>
+      <div class="flex justify-center">
+        <div class="triangle-wrap" id="triangleWrap">
+          <img
+            class="pt-50 w-140 triangle-img"
+            src="./assets/hero.png"
+            alt="hero image"
+          />
+        </div>
+      </div>
+
+      <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const wrap = document.querySelector('.triangle-wrap');
+    if (!wrap) {
+      console.error('triangle-wrap not found');
+      return;
+    }
+
+    wrap.addEventListener('mousemove', (e) => {
+      const rect = wrap.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width) * 100;
+      const y = ((e.clientY - rect.top) / rect.height) * 100;
+      wrap.style.setProperty('--x', `${x}%`);
+      wrap.style.setProperty('--y', `${y}%`);
+    });
+
+    wrap.addEventListener('mouseleave', () => {
+      wrap.style.setProperty('--x', '50%');
+      wrap.style.setProperty('--y', '50%');
+    });
+  });
+</script>
+      <div class="font-medium pt-80 px-30 text-white" style="line-height: 2">
+        <p>For Coding agents</p>
+        <p>To ship apps and agents</p>
+        <p>Automated by agents</p>
+      </div>
+    </div>
+    <div class="flex justify-around pt-18">
+      <img
+        src="./assets/img1.png"
+        alt="blackbox"
+        class="h-10 w-auto object-contain"
+      />
+      <img
+        src="./assets/img2.png"
+        alt="charles"
+        class="h-13 w-auto object-contain"
+      />
+      <img
+        src="./assets/img3.png"
+        alt="doordas"
+        class="h-9 w-auto object-contain"
+      />
+      <img
+        src="./assets/img4.png"
+        alt="openai"
+        class="h-8 w-auto object-contain"
+      />
+      <img
+        src="./assets/img5.png"
+        alt="supreme"
+        class="h-9 w-auto object-contain"
+      />
+      <img
+        src="./assets/img6.png"
+        alt="weathercompany"
+        class="h-13 w-auto object-contain"
+      />
+      <img
+        src="./assets/img7.png"
+        alt="polymarket"
+        class="h-13 w-auto object-contain"
+      />
+    </div>
+  </body>
+</html>

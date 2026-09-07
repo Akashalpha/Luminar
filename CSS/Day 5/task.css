@@ -1,0 +1,47 @@
+ {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+}
+#one {
+  position: fixed;
+  border: 2px solid green;
+  top: 150px;
+  left: 2px;
+}
+#two {
+  position: fixed;
+  border: 2px solid lightskyblue;
+  bottom: 3px;
+  left: 2px;
+}
+#three {
+  position: fixed;
+  border: 2px solid blue;
+  bottom: 3px;
+  right: 2px;
+}
+#four {
+  position: fixed;
+  border: 2px solid lightblue;
+  bottom: 30%;
+  right: 45%;
+}
+#five {
+  position: fixed;
+  border: 2px solid brown;
+  top: 150px;
+  right: 2px;
+}
+#six {
+  width: 600px;
+  height: 100px;
+  position: fixed;
+  border: 2px solid red;
+  right: 500px;
+  top: 2px;
+} 

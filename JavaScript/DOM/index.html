@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Header</h1>
+    <p>Paragraph</p>
+    <button onclick="alert('Welcome')">Click Here</button>
+    <button onclick="onBtnClick()">Click here to change text</button>
+    <!-- function created on script is called -->
+     <button onclick="changeBg()">Change bg of h1</button>
+</body>
+<!-- internal JS -->
+<script>
+    const onBtnClick =()=>{
+        let element = document.getElementsByTagName('h1')
+         console.log(element[0])
+        element[0].innerText = "Hello World....."
+        element[0].style.backgroundColor = "green"
+    }
+    const changeBg=()=>{
+        let element = document.getElementsByTagName('h1')[0]
+        element.style.backgroundColor = "red"
+    }
+</script>
+</html>

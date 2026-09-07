@@ -1,0 +1,116 @@
+.sub-title {
+  background-color: #e7effc;
+  display: inline;
+  border-radius: 4px;
+  padding: 7px 15px;
+  color:rgb(145, 22, 161);
+}
+.courses__nav-active button.active {
+  color: rgb(145, 22, 161);
+}
+.courses__nav-active button:hover {
+  color: rgb(145, 22, 161);
+}
+.courses__nav-active button {
+  position: relative;
+  border: medium;
+  background: none;
+  color: #39557e;
+  font-size: 17px;
+  padding: 10px;
+}
+.course-image {
+  position: relative; 
+  overflow: hidden;  
+  border-radius: 0.375rem 0.375rem 0 0; 
+}
+
+
+.course-badge {
+  position: absolute;
+  left: 0;
+  bottom: 0; 
+  padding: 4px 12px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500; 
+  font-family: "Poppins", sans-serif;
+  border-radius: 0 10px 0 0;
+  z-index: 5;
+}
+
+.recommended {
+  background: linear-gradient(90deg, #ff2fa8, #b600a8);
+}
+
+.mostplaced {
+  background: linear-gradient(90deg, #46c21d, #46c21c);
+}
+
+.newone {
+  background: linear-gradient(90deg, #232fe2, #2d37e7);
+}
+
+
+.course-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.45),
+    transparent
+  );
+  transform: skewX(-25deg);
+  z-index: 2;
+}
+
+.course-card:hover .course-image::before {
+  animation: shine 1.2s ease;
+}
+
+@keyframes shine {
+  100% {
+    left: 160%;
+  }
+}
+
+
+.glass-shine {
+     overflow: hidden; 
+}
+
+.glass-shine::before {
+     content: ""; 
+     position: absolute; 
+    top: 0;
+    left: -120%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(255, 255, 255, 0.6),
+        transparent
+    );
+    transform: skewX(-25deg);
+    animation: shine 3s infinite;
+}
+
+@keyframes shine {
+    0% {
+        left: -120%;
+    }
+
+    30% {
+        left: 130%;
+    }
+
+    100% {
+        left: 130%;
+    }
+}

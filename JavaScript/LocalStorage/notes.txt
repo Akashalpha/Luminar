@@ -1,0 +1,14 @@
+API(Application Programming Interface)
+It acts between Client and Server
+
+JSON.stringify() -> It takes a JS object and transforms into JSON string.
+
+JSON.parse() -> It takes a JSON string and transforms into a JS object.
+
+setItem() -> used to store items in local storage. Must stringify objects before storing
+
+getItem() -> used to access or retrieve data in local storage. The method takes a Key as the paramater and extract the required value from local storage
+
+removeItem() -> used to delete an item from local storage. It requires Key as paramater
+
+clear() -> used to clear all values stored in local storage . Doesnot require any paramater

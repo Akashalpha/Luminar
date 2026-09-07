@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box1 {
+  width: 200px;
+  height: 200px;
+}
+
+#red {
+  background-color: red;
+  position: relative;
+  left: 100px;
+}
+#green {
+  background-color: green;
+  position: relative;
+  left: 400px;
+  top: -200px;
+}
+#blue {
+  background-color: blue;
+}
+#black {
+  background-color: black;
+}
+.box2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+#parent1 {
+  position: relative;
+}
+#red1 {
+  background-color: red;
+  position: absolute;
+  left: 300px;
+  top: -150px;
+}
+#green1 {
+  background-color: green;
+  position: absolute;
+  left: 350px;
+  top: -200px;
+}
+#blue1 {
+  background-color: blue;
+  position: absolute;
+  left: 250px;
+  top: -250px;
+  z-index: 1;
+}
+#black1 {
+  background-color: black;
+  position: absolute;
+  left: 380px;
+  top: -300px;
+  z-index: 2;
+}

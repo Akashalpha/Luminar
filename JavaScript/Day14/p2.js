@@ -1,0 +1,31 @@
+let arr = [
+  [
+    [
+      [
+        [
+          [
+            [
+              [
+                [
+                  [
+                    [
+                      [
+                        [
+                          [
+                            [10]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+];
+let flattenedArray=arr.flat(Infinity)
+console.log(flattenedArray)

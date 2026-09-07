@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  height: 100vh;
+   background-color: rgb(34, 36, 42);
+  font-family: "Poppins", sans-serif;
+}
+#head {
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 420;
+  margin-top: 90px;
+  
+}
+#listleft {
+  gap: 20px;
+  list-style: none;
+  padding: 20px;
+  display: flex;
+}
+.top {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+}
+#listright {
+  gap: 20px;
+  list-style: none;
+  padding: 20px;
+  display: flex;
+}
+#parent {
+  display: flex;
+  justify-content: space-between;
+}
+#apps {
+  width: 20px;
+  margin-top: 5px;
+}
+#contact{
+  width: 30px;
+}
+#searchbox{
+position: relative;
+top: 20px;
+left: 400px;
+width: 680px;
+height: 50px;
+border-radius: 40px;
+border: 2px solid rgb(34, 36, 42);
+background-color: rgb(77, 81, 86);
+}
+#buttons{
+  display: flex;
+  gap: 10px;
+}
+.search{
+  position: relative;
+  top: 50px;
+  left: 600px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+  border: 2px solid rgb(48, 49, 52);
+  background-color: rgb(48, 49, 52);
+  color: white;
+  font-size: 14px;
+}
+#india{
+  color: white;
+  text-decoration: none;
+  font-size: small;
+  margin:100px 0px 0px 0px ;
+}
+#footerleft{
+  margin: 100px 0px 0px 0px ;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box; 
+
+}
+#bottomleft{
+gap: 20px;
+list-style: none;
+padding: 20px;
+display: flex;
+top:100px ;
+}

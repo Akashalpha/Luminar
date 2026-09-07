@@ -1,0 +1,83 @@
+<!-- 1.	Change Text Content
+	•	Create a paragraph with text “Hello World”.
+	•	Add a button — when clicked, it changes the text to “Welcome to DOM!”
+	2.	Change Background Color
+	•	Add a button that changes the page background color to yellow when clicked.
+	3.	Input and Output
+	•	Create an input box and a button.
+	•	When the button is clicked, display the input text below it.
+	4.	Hide and Show
+	•	Create a paragraph and two buttons — one hides the paragraph and the other shows it.
+	5.	Change Image
+	•	Display an image.
+	•	Add two buttons: one changes it to another image, and the second brings the first one back. -->
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>Hello World</p>
+    <button onclick="changeText()">Click Here</button>
+    <button onclick="changeBgColor()">Change Background</button><br /><br />
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus
+      voluptatum magnam possimus architecto vero quisquam dolores animi, aliquid
+      dolor a consequuntur distinctio sequi, debitis provident! Quia facilis
+      odit culpa enim? Earum voluptatem fuga magnam reprehenderit necessitatibus
+      praesentium nisi exercitationem! Adipisci quidem ab vero rem minima
+      aliquam fugiat qui deleniti expedita, illum, eveniet a nostrum aliquid.
+      Quo, qui. Quaerat, fugiat molestias!
+    </p>
+    <button onclick="showPara()">Show</button>
+    <button onclick="hidePara()">Hide</button><br /><br /><br />
+    <img
+      src="https://image-processor-storage.s3.us-west-2.amazonaws.com/images/3cf61c1011912a2173ea4dfa260f1108/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg"
+      alt="image"
+    />
+    <button onclick="changeImg()">Change image</button>
+    <button onclick="previousImg()">Previous image</button><br><br><br>
+    <input type="text" />
+    <button onclick="displayData()">Click</button>
+    <h1></h1>
+  </body>
+  <script>
+    const changeText = () => {
+      let element = document.getElementsByTagName("p");
+      console.log(element[0]);
+      element[0].innerText = "Welcome to DOM!";
+    };
+    const changeBgColor = () => {
+      let element = document.getElementsByTagName("body")[0];
+      element.style.backgroundColor = "yellow";
+    };
+    const showPara = () => {
+      let element = document.getElementsByTagName("p");
+      console.log(element[1]);
+      element[1].style.display = "block";
+    };
+    const hidePara = () => {
+      let element = document.getElementsByTagName("p");
+      console.log(element[1]);
+      element[1].style.display = "none";
+    };
+    const nextImg = () => {
+      let element = document.getElementsByTagName("img");
+    };
+    const displayData = () => {
+      let element = document.getElementsByTagName("input")[0];
+      document.getElementsByTagName("h1")[0].innerText = element.value;
+    };
+    const changeImg =()=>{
+        document.getElementsByTagName('img')[0].src="https://assets.qz.com/media/dawid-zawila--G3rw6Y02D0-unsplash-1400x933.jpg"
+    }
+    const previousImg =()=>{
+        document.getElementsByTagName('img')[0].src="https://image-processor-storage.s3.us-west-2.amazonaws.com/images/3cf61c1011912a2173ea4dfa260f1108/halo-of-neon-ring-illuminated-in-the-stunning-landscape-of-yosemite.jpg"
+    }
+  </script>
+</html>

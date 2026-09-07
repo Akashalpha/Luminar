@@ -1,0 +1,30 @@
+#parent {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  height: 25vh;
+  /* height= 100vh takes full viewport */
+  /* justify content - start and end are also available */
+  /* justify content - space-evenly , space-between and space-around are used */
+align-items: center;
+background-color: aquamarine;
+/* align-items for vertical height adjustment */
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+#red {
+  background-color: red;
+}
+#green {
+  background-color: green;
+}
+#blue {
+  background-color: blue;
+}
+#black {
+  background-color: black;
+}

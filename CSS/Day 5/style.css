@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  background-color: green;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+h2 {
+  background-color: red;
+  position: sticky;
+  top: 0px;
+}

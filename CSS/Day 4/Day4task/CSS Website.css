@@ -1,0 +1,504 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background-color: rgb(87, 28, 180);
+  height: 8vh;
+}
+img {
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
+}
+#logoname {
+  margin-left: 50px;
+  margin-top: -45px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: lightgrey;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin-top: -20px;
+  margin-left: 700px;
+}
+.box {
+  text-decoration: none;
+  color: white;
+}
+#starting {
+  background-color: rgb(15, 110, 243);
+  color: white;
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  font-size: 60px;
+  font-weight: bolder;
+  padding: 15px;
+  border-radius: 200px;
+}
+section {
+  line-height: 2;
+  width: 60%;
+  padding: 20px;
+}
+#img1 {
+  margin-left: 860px;
+  width: 600px;
+  height: 400px;
+  margin-top: -400px;
+}
+.content {
+  margin-bottom: 50px;
+}
+.buttons button {
+  margin-top: 80px;
+  margin-left: 100px;
+  padding: 20px;
+  border-radius: 50px;
+  border: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+}
+#daily {
+  margin-left: 600px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+}
+#Portfolio {
+  background-color: lightgray;
+  border: 10px solid white;
+  width: 190px;
+  border-radius: 40px;
+  color: purple;
+  margin-left: 100px;
+}
+#store {
+  background-color: lightgray;
+  border: 10px solid white;
+  width: 190px;
+  border-radius: 40px;
+  color: purple;
+  margin-left: 600px;
+  margin-top: -90px;
+}
+#platform {
+  background-color: lightgray;
+  border: 10px solid white;
+  width: 220px;
+  border-radius: 40px;
+  color: purple;
+  margin-left: 1100px;
+  margin-top: -90px;
+}
+#news {
+  background-color: lightgray;
+  border: 10px solid white;
+  width: 190px;
+  border-radius: 40px;
+  color: purple;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+#buisness {
+  background-color: lightgray;
+  border: 10px solid white;
+  width: 190px;
+  border-radius: 40px;
+  color: purple;
+  margin-left: 600px;
+  margin-top: -90px;
+}
+#social {
+  background-color: lightgray;
+  border: 10px solid white;
+  width: 230px;
+  border-radius: 40px;
+  color: purple;
+  margin-top: -90px;
+  margin-left: 1100px;
+}
+#about1 {
+  padding: 40px;
+}
+#img2 {
+  width: 1521px;
+  margin-left: -20px;
+  margin-top: -20px;
+  height: auto;
+  border-radius: 3px;
+}
+p {
+  width: 70%;
+  padding: 20px;
+  font-family: monospace;
+  font-size: large;
+}
+h3 {
+  padding: 30px;
+}
+#design {
+  background-color: lightcyan;
+  border: 10px solid white;
+  width: 60%;
+  border-radius: 30px;
+  color: black;
+}
+#responsive {
+  background-color: lightcyan;
+  border: 10px solid white;
+  width: 58%;
+  padding: 10px;
+  border-radius: 30px;
+  color: black;
+  margin-left: 750px;
+  margin-top: -220px;
+}
+#easy {
+  background-color: lightcyan;
+  border: 10px solid white;
+  width: 58%;
+  padding: 10px;
+  border-radius: 30px;
+  color: black;
+  margin-top: 20px;
+}
+#effects {
+  background-color: lightcyan;
+  border: 10px solid white;
+  width: 60%;
+  border-radius: 30px;
+  color: black;
+  margin-left: 750px;
+  margin-top: -220px;
+}
+#about {
+  height: 500px;
+  width: 750px;
+  margin-left: 700px;
+  margin-top: -350px;
+  border-radius: 20px;
+}
+#head {
+  margin-left: 650px;
+  margin-top: 50px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+}
+#table {
+  width: 800px;
+  border-radius: 10px;
+  margin-left: 450px;
+  border: -200px solid white;
+  margin-top: 100px;
+}
+#tablehead {
+  background-color: rgb(0, 57, 169);
+  border-radius: 5px;
+  color: white;
+  font-family: "poppins", sans-serif;
+  font-size: x-large;
+}
+.table {
+  font-family: sans-serif;
+  font-size: larger;
+}
+#before {
+  background-color: white;
+  border: 0.5px solid black;
+  width: 1400px;
+  border-radius: 30px;
+  color: black;
+}
+#befcss {
+  margin-left: 20px;
+  color: rgb(38, 101, 237);
+}
+#para {
+  width: 1200px;
+  margin-top: -10px;
+}
+#img3 {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+#who {
+  background-color: white;
+  border: 0.5px solid black;
+  width: 1400px;
+  height: 550px;
+  border-radius: 30px;
+  color: black;
+}
+#name {
+  margin-top: -40px;
+  margin-left: 100px;
+  color: red;
+}
+#para1 {
+  width: 900px;
+  margin-top: -500px;
+  margin-left: 400px;
+  color: rgb(14, 23, 37);
+  text-align: justify;
+}
+#timeline {
+  width: 1400px;
+  height: auto;
+}
+#introduced {
+  background-color: lightcyan;
+  border: 20px solid white;
+  width: 20%;
+  padding: 20px;
+  border-radius: 30px;
+  color: black;
+}
+#added {
+  background-color: lightcyan;
+  border: 10px solid white;
+  width: 20%;
+  padding: 20px;
+  border-radius: 30px;
+  color: black;
+  margin-left: 500px;
+  margin-top: -265px;
+}
+#introduce {
+  background-color: lightcyan;
+  border: 10px solid white;
+  width: 20%;
+  padding: 20px;
+  border-radius: 30px;
+  color: black;
+  margin-left: 1000px;
+  margin-top: -265px;
+}
+#selector {
+  background-color: lightcyan;
+  border: 10px solid white;
+  padding: 20px;
+  width: 25%;
+  border-radius: 30px;
+  color: black;
+  margin-left: 25px;
+}
+#colors {
+  background-color: lightcyan;
+  border: 10px solid white;
+  padding: 20px;
+  width: 25%;
+  border-radius: 30px;
+  color: black;
+  margin-left: 530px;
+  margin-top: -250px;
+}
+#boxmodel {
+  background-color: lightcyan;
+  border: 10px solid white;
+  padding: 20px;
+  width: 25%;
+  border-radius: 30px;
+  color: black;
+  margin-left: 1030px;
+  margin-top: -270px;
+}
+#flexbox {
+  background-color: lightcyan;
+  border: 10px solid white;
+  padding: 20px;
+  width: 25%;
+  border-radius: 30px;
+  color: black;
+  margin-left: 530px;
+  margin-top: -210px;
+}
+#grid {
+  background-color: lightcyan;
+  border: 10px solid white;
+  padding: 20px;
+  width: 25%;
+  border-radius: 30px;
+  color: black;
+  margin-left: 1030px;
+  margin-top: -190px;
+}
+#animation {
+  background-color: lightcyan;
+  border: 10px solid white;
+  padding: 20px;
+  width: 25%;
+  border-radius: 30px;
+  color: black;
+  margin-left: 530px;
+  margin-top: -190px;
+}
+#color {
+  padding: 50px;
+  font-family: monospace;
+  font-size: large;
+  background-color: lightgray;
+  border: 10px solid white;
+  width: 120px;
+  border-radius: 40px;
+  color: purple;
+  margin-left: 370px;
+  margin-top: 20px;
+}
+#color1 {
+  padding: 50px;
+  font-family: monospace;
+  font-size: large;
+  background-color: lightgray;
+  border: 10px solid white;
+  width: 120px;
+  height: 240px;
+  border-radius: 40px;
+  color: purple;
+  margin-left: 870px;
+  margin-top: -360px;
+}
+#img4 {
+  width: 1480px;
+  margin-left: -20px;
+  margin-top: 10px;
+  height: auto;
+  border-radius: 3px;
+}
+#MDN {
+  margin-left: 100px;
+}
+#i1 {
+  width: auto;
+  height: auto;
+  margin-left: 30px;
+}
+#i11 {
+  border: 1px solid black;
+  padding: 10px;
+  width: 300px;
+  margin-left: 30px;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+#i22 {
+  border: 1px solid black;
+  padding: 10px;
+  width: 300px;
+  margin-left: 550px;
+  margin-top: -295px;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+#i33 {
+  border: 1px solid black;
+  padding: 10px;
+  width: 300px;
+  margin-left: 1050px;
+  margin-top: -295px;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+#i44 {
+  border: 1px solid black;
+  padding: 10px;
+  width: 300px;
+  margin-left: 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+#i55 {
+  border: 1px solid black;
+  padding: 10px;
+  width: 300px;
+  margin-left: 550px;
+  margin-top: -285px;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+#i66 {
+  border: 1px solid black;
+  padding: 10px;
+  width: 300px;
+  margin-left: 1050px;
+  margin-top: -285px;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+#res {
+  margin-left: 20px;
+  color: rgb(38, 101, 237);
+  margin: 10px 0px 20px 20px;
+  font-size: x-large;
+  border: 20px solid white;
+  padding: 30px;
+  text-decoration: dotted underline;
+}
+footer {
+  background: rgb(87, 28, 180);
+  color: white;
+  padding: 10px 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.footer-box {
+  flex: 1;
+  min-width: 200px;
+}
+.footer-box h2,
+.footer-box h3 {
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+.footer-box p {
+  line-height: 1.8;
+  color: #d1d5db;
+}
+.footer-box ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-box ul li {
+  margin-bottom: 12px;
+}
+.footer-box ul li a {
+  color: #d1d5db;
+  text-decoration: none;
+}
+.footer-box ul li a {
+  color: d1d5db;
+  padding-left: 5px;
+}
+footer hr {
+  margin: 30px 0 20px;
+  border: 1px solid #334155;
+}
+.copyright {
+  text-align: center;
+  color: #cbd5e1;
+  font-size: 15px;
+}
+#footer1 {
+  margin-left: 20px;
+}
+#footer2 {
+  margin-left: -40px;
+}
+#footer3 {
+  margin-left: 200px;
+}
